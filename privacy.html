@@ -10,7 +10,7 @@ a{color:var(--accent)}p,li{color:var(--fg)}em{color:var(--muted)}hr{border:0;bor
 <header><div class="logo">R</div><div class="brand">RunWay</div></header>
 <nav><a href="./">Assistance · Support</a><a href="privacy.html">Confidentialité · Privacy</a></nav>
 <h1>Politique de confidentialité — RunWay</h1>
-<p><em>Dernière mise à jour : 24 octobre 2026</em></p>
+<p><em>Dernière mise à jour : 25 octobre 2026</em></p>
 <p>RunWay est une app de course à pied avec un coach vocal. Cette page explique quelles données l&#x27;app utilise, où elles vont et ce que tu peux contrôler.</p>
 <h2>En bref</h2>
 <ul>
@@ -57,12 +57,13 @@ a{color:var(--accent)}p,li{color:var(--fg)}em{color:var(--muted)}hr{border:0;bor
 <li><strong>Micro et reconnaissance vocale</strong> : seulement quand tu maintiens le bouton micro pour poser une question au coach. La transcription se fait sur l&#x27;iPhone quand c&#x27;est possible ; l&#x27;audio n&#x27;est pas conservé.</li>
 <li><strong>Bluetooth</strong> : pour te connecter à une ceinture cardio, si tu en as une.</li>
 <li><strong>Démarrage automatique</strong> (Réglages › Démarrage automatique, désactivé par défaut) : si tu actives « Détecter mes courses », l&#x27;app utilise la localisation « Toujours » (grands déplacements et tes lieux de départ habituels, calculés sur l&#x27;iPhone d&#x27;après tes courses ; pas de GPS en continu) et l&#x27;historique de mouvement de l&#x27;iPhone pour te proposer ton coach quand tu cours. Si tu actives l&#x27;import des courses de montre, les nouvelles courses arrivées dans Santé (Garmin, Apple Watch…) rejoignent ton historique, comme un import manuel. Tout cela reste sur ton iPhone et n&#x27;est envoyé à personne ; seules les courses importées sont sauvegardées sur ton compte, comme les autres.</li>
+<li><strong>Rappels du coach</strong> (Réglages › Entraînement › Notifications) : l&#x27;heure des rappels suit tes habitudes (les jours et heures de départ de tes courses des 12 dernières semaines), calculées sur l&#x27;iPhone ; pour la météo de ton créneau, la dernière position vue par l&#x27;app, arrondie à environ 1 km, y est gardée. Rien de cela n&#x27;est envoyé, sauf cette position arrondie à Open-Meteo (ci-dessous) et, avec ton accord pour l&#x27;IA, une courte ligne sur ton créneau dans le briefing du coach.</li>
 </ul>
 <h2>Données envoyées à des tiers</h2>
 <h3>Services d&#x27;IA (avec ton accord)</h3>
 <p>L&#x27;app te demande ton accord une fois. Tu peux le retirer à tout moment dans Réglages › Coach. Les demandes passent par notre serveur (Supabase, UE), qui les relaie sans en conserver le contenu : il garde seulement le décompte de ton temps de coaching et du nombre d&#x27;appels.</p>
 <ul>
-<li><strong>Claude, par Anthropic</strong> : pour écrire les annonces, le briefing, le bilan et les réponses du coach, l&#x27;app envoie tes chiffres de course (distance, allure, temps, cardio, zones, cadence), des éléments de ta forme du jour (VFC, FC de repos, sommeil, VO2 max), ton prénom, la météo, le modèle et le kilométrage d&#x27;une paire de chaussures qui passe son seuil d&#x27;usure, tes questions au coach, ce qu&#x27;il a retenu de vos discussions, la gêne que tu signales (zone, intensité, depuis quand, suivi de la reprise), le nom, la distance, le dénivelé et les rues des parcours proposés ou choisis, et, si tu es dans un crew, les prénoms des membres de ton crew et ses chiffres (classement de la semaine, objectif commun, classement des défis, temps d&#x27;un ami à battre en duel), pour que le coach puisse en parler dans le briefing, le bilan et pendant la course. Ces demandes portent un identifiant de compte anonyme (pas ton e-mail). Politique d&#x27;Anthropic : <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
+<li><strong>Claude, par Anthropic</strong> : pour écrire les annonces, le briefing, le bilan et les réponses du coach, l&#x27;app envoie tes chiffres de course (distance, allure, temps, cardio, zones, cadence), des éléments de ta forme du jour (VFC, FC de repos, sommeil, VO2 max), ton prénom, la météo et ton créneau de course habituel, le modèle et le kilométrage d&#x27;une paire de chaussures qui passe son seuil d&#x27;usure, tes questions au coach, ce qu&#x27;il a retenu de vos discussions, la gêne que tu signales (zone, intensité, depuis quand, suivi de la reprise), le nom, la distance, le dénivelé et les rues des parcours proposés ou choisis, et, si tu es dans un crew, les prénoms des membres de ton crew et ses chiffres (classement de la semaine, objectif commun, classement des défis, temps d&#x27;un ami à battre en duel), pour que le coach puisse en parler dans le briefing, le bilan et pendant la course. Ces demandes portent un identifiant de compte anonyme (pas ton e-mail). Politique d&#x27;Anthropic : <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
 <li><strong>ElevenLabs</strong> : pour dire en direct, avec la voix du coach, les phrases écrites pour toi, l&#x27;app envoie le texte de ces phrases (qui peut contenir le prénom d&#x27;un membre de ton crew). Politique d&#x27;ElevenLabs : <a href="https://elevenlabs.io/privacy-policy">https://elevenlabs.io/privacy-policy</a></li>
 </ul>
 <p>Sans accord, rien n&#x27;est envoyé à ces services : le coach dit ses phrases enregistrées d&#x27;avance, avec une voix ElevenLabs enregistrée (celle choisie si elle a son pack, sinon celle de la langue). Ces packs de voix (morceaux de phrases enregistrés une fois pour toutes, sans aucune donnée personnelle) sont dans l&#x27;app ou se téléchargent depuis notre serveur.</p>
@@ -79,7 +80,7 @@ a{color:var(--accent)}p,li{color:var(--fg)}em{color:var(--muted)}hr{border:0;bor
 </ul>
 <h3>Météo</h3>
 <ul>
-<li><strong>Open-Meteo</strong> : pour la météo du jour, l&#x27;app envoie une position arrondie à environ 1 km ; pour le dénivelé d&#x27;une boucle proposée, les coordonnées de quelques dizaines de points du parcours. Aucune autre donnée. <a href="https://open-meteo.com">https://open-meteo.com</a></li>
+<li><strong>Open-Meteo</strong> : pour la météo du jour et les prévisions heure par heure d&#x27;aujourd&#x27;hui et de demain (pluie, chaleur, vent et qualité de l&#x27;air à ton heure habituelle, y compris en arrière-plan pour tes rappels), l&#x27;app envoie une position arrondie à environ 1 km ; pour le dénivelé d&#x27;une boucle proposée, les coordonnées de quelques dizaines de points du parcours. Aucune autre donnée. <a href="https://open-meteo.com">https://open-meteo.com</a></li>
 </ul>
 <h2>Durée de conservation et suppression</h2>
 <ul>
@@ -96,7 +97,7 @@ a{color:var(--accent)}p,li{color:var(--fg)}em{color:var(--muted)}hr{border:0;bor
 <p>Si cette politique change, la date en haut de la page sera mise à jour.</p>
 <hr>
 <h1>Privacy Policy — RunWay</h1>
-<p><em>Last updated: October 24, 2026</em></p>
+<p><em>Last updated: October 25, 2026</em></p>
 <p>RunWay is a running app with a voice coach. This page explains what data the app uses, where it goes and what you control.</p>
 <h2>In short</h2>
 <ul>
@@ -143,12 +144,13 @@ a{color:var(--accent)}p,li{color:var(--fg)}em{color:var(--muted)}hr{border:0;bor
 <li><strong>Microphone and speech recognition</strong>: only while you hold the mic button to ask the coach a question. Transcription happens on the iPhone when possible; audio is not kept.</li>
 <li><strong>Bluetooth</strong>: to connect a heart rate strap, if you have one.</li>
 <li><strong>Automatic start</strong> (Settings › Automatic start, off by default): if you turn on “Detect my runs”, the app uses “Always” location (significant moves and your usual starting spots, worked out on your iPhone from your runs; no continuous GPS) and your iPhone&#x27;s motion history to offer your coach when you&#x27;re running. If you turn on importing watch runs, new runs that land in Health (Garmin, Apple Watch…) join your history, just like a manual import. All of this stays on your iPhone and is sent to no one; only the imported runs are backed up to your account, like your other runs.</li>
+<li><strong>Coach reminders</strong> (Settings › Training › Notifications): reminder times follow your habits (the days and start times of your runs over the last 12 weeks), worked out on your iPhone; for the weather at your usual time, the last location the app saw, rounded to about 1 km, is kept there. None of this is sent, except that rounded location to Open-Meteo (below) and, with your AI consent, a short line about your usual time in the coach&#x27;s briefing.</li>
 </ul>
 <h2>Data sent to third parties</h2>
 <h3>AI services (with your permission)</h3>
 <p>The app asks for your permission once. You can withdraw it anytime in Settings › Coach. Requests go through our server (Supabase, EU), which relays them without keeping their content: it only keeps track of your coaching time and number of requests.</p>
 <ul>
-<li><strong>Claude, by Anthropic</strong>: to write the coach&#x27;s cues, briefing, summary and answers, the app sends your run stats (distance, pace, time, heart rate, zones, cadence), parts of your readiness (HRV, resting heart rate, sleep, VO2 max), your first name, the weather, the model and mileage of a pair of shoes that passes its wear threshold, your questions, what the coach remembers from your chats, any sore spot you report (area, intensity, since when, comeback check-ins), the name, distance, elevation and streets of suggested or chosen routes, and, if you&#x27;re in a crew, your crew members&#x27; first names and the crew&#x27;s figures (weekly leaderboard, shared goal, challenge standings, a friend&#x27;s duel time), so the coach can mention them in the briefing, the summary and during the run. These requests carry an anonymous account identifier (not your email). Anthropic&#x27;s policy: <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
+<li><strong>Claude, by Anthropic</strong>: to write the coach&#x27;s cues, briefing, summary and answers, the app sends your run stats (distance, pace, time, heart rate, zones, cadence), parts of your readiness (HRV, resting heart rate, sleep, VO2 max), your first name, the weather and your usual running time, the model and mileage of a pair of shoes that passes its wear threshold, your questions, what the coach remembers from your chats, any sore spot you report (area, intensity, since when, comeback check-ins), the name, distance, elevation and streets of suggested or chosen routes, and, if you&#x27;re in a crew, your crew members&#x27; first names and the crew&#x27;s figures (weekly leaderboard, shared goal, challenge standings, a friend&#x27;s duel time), so the coach can mention them in the briefing, the summary and during the run. These requests carry an anonymous account identifier (not your email). Anthropic&#x27;s policy: <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
 <li><strong>ElevenLabs</strong>: to speak the lines written for you live, in the coach&#x27;s voice, the app sends the text of those lines (which can include a crew member&#x27;s first name). ElevenLabs&#x27; policy: <a href="https://elevenlabs.io/privacy-policy">https://elevenlabs.io/privacy-policy</a></li>
 </ul>
 <p>Without permission, nothing is sent to these services: the coach speaks its pre-recorded lines, in a recorded ElevenLabs voice (your chosen voice if it has a pack, otherwise the default one for your language). These voice packs (pieces of sentences recorded once and for all, with no personal data) ship with the app or download from our server.</p>
@@ -165,7 +167,7 @@ a{color:var(--accent)}p,li{color:var(--fg)}em{color:var(--muted)}hr{border:0;bor
 </ul>
 <h3>Weather</h3>
 <ul>
-<li><strong>Open-Meteo</strong>: for today&#x27;s weather, the app sends a location rounded to about 1 km; for the elevation of a suggested loop, the coordinates of a few dozen points along it. Nothing else. <a href="https://open-meteo.com">https://open-meteo.com</a></li>
+<li><strong>Open-Meteo</strong>: for today&#x27;s weather and the hour-by-hour forecast for today and tomorrow (rain, heat, wind and air quality at your usual time, including in the background for your reminders), the app sends a location rounded to about 1 km; for the elevation of a suggested loop, the coordinates of a few dozen points along it. Nothing else. <a href="https://open-meteo.com">https://open-meteo.com</a></li>
 </ul>
 <h2>Retention and deletion</h2>
 <ul>
